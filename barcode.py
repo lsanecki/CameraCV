@@ -15,6 +15,9 @@ import pickle
 import struct
 ########################################  V 2.0
 
+#TODO: naprawic blad wyjatek wielkosci kodu zmienna org_list w pliku dmtx
+#TODO: naprawić błąd nie kasuja sie dane po dekodowaniu kodu Datamatrix i cały czas odczytuje z tego samego zdjecia
+
 
 class Barcode:
 	def __init__(self) -> None:

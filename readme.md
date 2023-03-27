@@ -1,0 +1,37 @@
+# wymagania dla urzadzenia/serwera:
+- ### urządzenie Raspberry Pi 4B
+- ### system RaspberryPi OS 64bit lite 2023-02-21
+- ### Multi Camera Board V2.2 (dla obslugi 4 kamer przez CSI)
+- ### Python 3.9
+- #### uruchomione opcje w raspi-config Interface Options ->
+  - Legacy Camera
+  - I2C dla muti camera board
+  - 1-Wire dla Neopixel
+- #### Biblioteki:
+  - ##### OpenCV
+    - sudo apt install build-essential cmake pkg-config
+    - sudo apt install libjpeg-dev libtiff5-dev libjasper-dev libpng-dev
+    - sudo apt install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+    - sudo apt install libxvidcore-dev libx264-dev
+    - sudo apt install libfontconfig1-dev libcairo2-dev
+    - sudo apt install libgdk-pixbuf2.0-dev libpango1.0-dev
+    - sudo apt install libgtk2.0-dev libgtk-3-dev
+    - sudo apt install libatlas-base-dev gfortran
+    - sudo apt install libhdf5-dev libhdf5-serial-dev libhdf5-103
+    - sudo apt install libqt5gui5 libqt5webkit5 libqt5test5 python3-pyqt5
+    - sudo apt install python3-dev
+    - sudo apt-get install python3-pip
+    - pip install numpy
+    - pip install opencv-python
+  - #### pyzbar do odczytu kodów 1D i QR
+    - sudo apt-get install libzbar0
+    - pip install pyzbar
+  - #### pylibdmtx
+    - sudo apt-get install libdmtx0b
+    - pip install pylibdmtx
+  - #### zxing
+    - pip install zxing
+  - #### galois
+    - pip install galois
+  - #### Neopixel
+    - sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel
