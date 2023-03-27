@@ -1,0 +1,970 @@
+{
+	"1": {
+	"character": "NUL",
+	"description": "null"
+	},
+	"2": {
+	"character": "SOH",
+	"description": "Start of Header"
+	},
+	"3": {
+	"character": "STX",
+	"description": "Start of Text"
+	},
+	"4": {
+	"character": "ETX",
+	"description": "End of Text"
+	},
+	"5": {
+	"character": "EOT",
+	"description": "End of Transmission"
+	},
+	"6": {
+	"character": "ENQ",
+	"description": "Enquiry"
+	},
+	"7": {
+	"character": "ACK",
+	"description": "Acknowledge"
+	},
+	"8":  {
+	"character": "BEL",
+	"description": "Bell"
+	},
+	"9": {
+	"character": "BS",
+	"description": "Backspace"
+	},
+	"10": {
+	"character": "HT",
+	"description": "Horizontal Tab"
+	},
+	"11": {
+	"character": "LF",
+	"description": "Line Feed"
+	},
+	"12": {
+	"character": "VT",
+	"description": "Vertical Tab"
+	},
+	"": {
+	"character": "FF",
+	"description": "Form Feed"
+	},
+	"14": {
+	"character": "CR",
+	"description": "Carriage Return"
+	},
+	"15": {
+	"character": "SO",
+	"description": "Shift Out"
+	},
+	"16": {
+	"character": "SI",
+	"description": "Shift In"
+	},
+	"17": {
+	"character": "DLE",
+	"description": "Data Link Escape"
+	},
+	"18": {
+	"character": "DC1",
+	"description": "Device Control 1"
+	},
+	"19": {
+	"character": "DC2",
+	"description": "Device Control 2"
+	},
+	"20": {
+	"character": "DC3",
+	"description": "Device Control 3"
+	},
+	"21": {
+	"character": "DC4",
+	"description": "Device Control 4"
+	},
+	"22": {
+	"character": "NAK",
+	"description": "Negative Acknowledge"
+	},
+	"23": {
+	"character": "SYN",
+	"description": "Synchronize"
+	},
+	"24": {
+	"character": "ETB",
+	"description": "End of Transmission Block"
+	},
+	"25": {
+	"character": "CAN",
+	"description": "Cancel"
+	},
+	"26": {
+	"character": "EM",
+	"description": "End of Medium"
+	},
+	"27": {
+	"character": "SUB",
+	"description": "Substitute"
+	},
+	"28": {
+	"character": "ESC",
+	"description": "Escape"
+	},
+	"29": {
+	"character": "FS",
+	"description": "File Separator"
+	},
+	"30": {
+	"character": "GS",
+	"description": "Group Separator"
+	},
+	"31": {
+	"character": "RS",
+	"description": "Record Separator"
+	},
+	"32": {
+	"character": "US",
+	"description": "Unit Separator"
+	},
+	"33": {
+	"character": "space",
+	"description": "Space"
+	},
+	"34": {
+	"character": "!",
+	"description": "Exclamation mark"
+	},
+	"35": {
+	"character": "\"",
+	"description": "Double Quote"
+	},
+	"36": {
+	"character": "#",
+	"description": "Number"
+	},
+	"37": {
+	"character": "$",
+	"description": "Dollar sign"
+	},
+	"38": {
+	"character": "%",
+	"description": "Percent"
+	},
+	"39": {
+	"character": "&",
+	"description": "Ampersand"
+	},
+	"40": {
+	"character": "'",
+	"description": "Single quote"
+	},
+	"41": {
+	"character": "(",
+	"description": "Left parenthesis"
+	},
+	"42": {
+	"character": ")",
+	"description": "Right parenthesis"
+	},
+	"43": {
+	"character": "*",
+	"description": "Asterisk"
+	},
+	"44": {
+	"character": "+",
+	"description": "Plus"
+	},
+	"45": {
+	"character": ",",
+	"description": "Comma"
+	},
+	"46": {
+	"character": "-",
+	"description": "Minus"
+	},
+	"47": {
+	"character": ".",
+	"description": "Period"
+	},
+	"48": {
+	"character": "/",
+	"description": "Slash"
+	},
+	"49": {
+	"character": "0",
+	"description": "Zero"
+	},
+	"50": {
+	"character": "1",
+	"description": "One"
+	},
+	"51": {
+	"character": "2",
+	"description": "Two"
+	},
+	"52": {
+	"character": "3",
+	"description": "Three"
+	},
+	"53": {
+	"character": "4",
+	"description": "Four"
+	},
+	"54": {
+	"character": "5",
+	"description": "Five"
+	},
+	"55": {
+	"character": "6",
+	"description": "Six"
+	},
+	"56": {
+	"character": "7",
+	"description": "Seven"
+	},
+	"57": {
+	"character": "8",
+	"description": "Eight"
+	},
+	"58": {
+	"character": "9",
+	"description": "Nine"
+	},
+	"59": {
+	"character": ":",
+	"description": "Colon"
+	},
+	"60": {
+	"character": ";",
+	"description": "Semicolon"
+	},
+	"61": {
+	"character": "<",
+	"description": "Less than"
+	},
+	"62": {
+	"character": "=",
+	"description": "Equality sign"
+	},
+	"63": {
+	"character": ">",
+	"description": "Greater than"
+	},
+	"64": {
+	"character": "?",
+	"description": "Question mark"
+	},
+	"65": {
+	"character": "@",
+	"description": "At sign"
+	},
+	"66": {
+	"character": "A",
+	"description": "Capital A"
+	},
+	"67": {
+	"character": "B",
+	"description": "Capital B"
+	},
+	"68": {
+	"character": "C",
+	"description": "Capital C"
+	},
+	"69": {
+	"character": "D",
+	"description": "Capital D"
+	},
+	"70": {
+	"character": "E",
+	"description": "Capital E"
+	},
+	"71": {
+	"character": "F",
+	"description": "Capital F"
+	},
+	"72": {
+	"character": "G",
+	"description": "Capital G"
+	},
+	"73": {
+	"character": "H",
+	"description": "Capital H"
+	},
+	"74": {
+	"character": "I",
+	"description": "Capital I"
+	},
+	"75": {
+	"character": "J",
+	"description": "Capital J"
+	},
+	"76": {
+	"character": "K",
+	"description": "Capital K"
+	},
+	"77": {
+	"character": "L",
+	"description": "Capital L"
+	},
+	"78": {
+	"character": "M",
+	"description": "Capital M"
+	},
+	"79": {
+	"character": "N",
+	"description": "Capital N"
+	},
+	"80" :{
+	"character": "O",
+	"description": "Capital O"
+	},
+	"81": {
+	"character": "P",
+	"description": "Capital P"
+	},
+	"82": {
+	"character": "Q",
+	"description": "Capital Q"
+	},
+	"83": {
+	"character": "R",
+	"description": "Capital R"
+	},
+	"84": {
+	"character": "S",
+	"description": "Capital S"
+	},
+	"85": {
+	"character": "T",
+	"description": "Capital T"
+	},
+	"86": {
+	"character": "U",
+	"description": "Capital U"
+	},
+	"87": {
+	"character": "V",
+	"description": "Capital V"
+	},
+	"88": {
+	"character": "W",
+	"description": "Capital W"
+	},
+	"89": {
+	"character": "X",
+	"description": "Capital X"
+	},
+	"90": {
+	"character": "Y",
+	"description": "Capital Y"
+	},
+	"91": {
+	"character": "Z",
+	"description": "Capital Z"
+	},
+	"92": {
+	"character": "[",
+	"description": "Left square bracket"
+	},
+	"93": {
+	"character": "\\",
+	"description": "Backslash"
+	},
+	"94": {
+	"character": "]",
+	"description": "Right square bracket"
+	},
+	"95": {
+	"character": "^",
+	"description": "Caret / circumflex"
+	},
+	"96": {
+	"character": "_",
+	"description": "Underscore"
+	},
+	"97": {
+	"character": "`",
+	"description": "Grave / accent"
+	},
+	"98": {
+	"character": "a",
+	"description": "a"
+	},
+	"99": {
+	"character": "b",
+	"description": "b"
+	},
+	"100": {
+	"character": "c",
+	"description": "c"
+	},
+	"101": {
+	"character": "d",
+	"description": "d"
+	},
+	"102": {
+	"character": "e",
+	"description": "e"
+	},
+	"103": {
+	"character": "f",
+	"description": "f"
+	},
+	"104": {
+	"character": "g",
+	"description": "g"
+	},
+	"105": {
+	"character": "h",
+	"description": "h"
+	},
+	"106": {
+	"character": "i",
+	"description": "i"
+	},
+	"107": {
+	"character": "j",
+	"description": "j"
+	},
+	"108": {
+	"character": "k",
+	"description": "k"
+	},
+	"109": {
+	"character": "l",
+	"description": "l"
+	},
+	"110": {
+	"character": "m",
+	"description": "m"
+	},
+	"111": {
+	"character": "n",
+	"description": "n"
+	},
+	"112": {
+	"character": "o",
+	"description": "o"
+	},
+	"113": {
+	"character": "p",
+	"description": "p"
+	},
+	"114": {
+	"character": "q",
+	"description": "q"
+	},
+	"115": {
+	"character": "r",
+	"description": "r"
+	},
+	"116": {
+	"character": "s",
+	"description": "s"
+	},
+	"117": {
+	"character": "t",
+	"description": "t"
+	},
+	"118": {
+	"character": "u",
+	"description": "u"
+	},
+	"119": {
+	"character": "v",
+	"description": "v"
+	},
+	"120": {
+	"character": "w",
+	"description": "w"
+	},
+	"121": {
+	"character": "x",
+	"description": "x"
+	},
+	"122": {
+	"character": "y",
+	"description": "y"
+	},
+	"123": {
+	"character": "z",
+	"description": "z"
+	},
+	"124": {
+	"character": "{",
+	"description": "Left curly bracket"
+	},
+	"125": {
+	"character": "|",
+	"description": "Vertical bar"
+	},
+	"126": {
+	"character": "}",
+	"description": "Right curly bracket"
+	},
+	"127": {
+	"character": "~",
+	"description": "Tilde"
+	},
+	"128": {
+	"character": "DEL",
+	"description": "Delete"
+	},
+	"129": {
+	"character": "PAD",
+	"description": "PAD"
+	},
+	"130": {
+	"character": "00",
+	"description": "zero zero"
+	},
+	"131": {
+	"character": "01",
+	"description": "zero one"
+	},
+	"132": {
+	"character": "02",
+	"description": "zero two"
+	},
+	"133": {
+	"character": "03",
+	"description": "zero three"
+	},
+	"134": {
+	"character": "04",
+	"description": "zero four"
+	},
+	"135": {
+	"character": "05",
+	"description": "zero five"
+	},
+	"136": {
+	"character": "06",
+	"description": "zero six"
+	},
+	"137": {
+	"character": "07",
+	"description": "zero seven"
+	},
+	"138": {
+	"character": "08",
+	"description": "zero eight"
+	},
+	"139": {
+	"character": "09",
+	"description": "zero nine"
+	},
+	"140": {
+	"character": "10",
+	"description": "one zero"
+	},
+	"141": {
+	"character": "11",
+	"description": "one one"
+	},
+	"142": {
+	"character": "12",
+	"description": "one two"
+	},
+	"143": {
+	"character": "13",
+	"description": "one three"
+	},
+	"144": {
+	"character": "14",
+	"description": "one four"
+	},
+	"145": {
+	"character": "15",
+	"description": "one five"
+	},
+	"146": {
+	"character": "16",
+	"description": "one six"
+	},
+	"147": {
+	"character": "17",
+	"description": "one seven"
+	},
+	"148": {
+	"character": "18",
+	"description": "one eight"
+	},
+	"149": {
+	"character": "19",
+	"description": "one nine"
+	},
+	"150": {
+	"character": "20",
+	"description": "two zero"
+	},
+	"151": {
+	"character": "21",
+	"description": "two one"
+	},
+	"152": {
+	"character": "22",
+	"description": "two two"
+	},
+	"153": {
+	"character": "23",
+	"description": "two three"
+	},
+	"154": {
+	"character": "24",
+	"description": "two four"
+	},
+	"155": {
+	"character": "25",
+	"description": "two five"
+	},
+	"156": {
+	"character": "26",
+	"description": "two six"
+	},
+	"157": {
+	"character": "27",
+	"description": "two seven"
+	},
+	"158": {
+	"character": "28",
+	"description": "two eight"
+	},
+	"159": {
+	"character": "29",
+	"description": "two nine"
+	},
+	"160": {
+	"character": "30",
+	"description": "three zero"
+	},
+	"161": {
+	"character": "31",
+	"description": "three one"
+	},
+	"162": {
+	"character": "32",
+	"description": "three two"
+	},
+	"163": {
+	"character": "33",
+	"description": "three three"
+	},
+	"164": {
+	"character": "34",
+	"description": "three four"
+	},
+	"165": {
+	"character": "35",
+	"description": "three five"
+	},
+	"166": {
+	"character": "36",
+	"description": "three six"
+	},
+	"167": {
+	"character": "37",
+	"description": "three seven"
+	},
+	"168": {
+	"character": "38",
+	"description": "three eight"
+	},
+	"169": {
+	"character": "39",
+	"description": "three nine"
+	},
+	"170": {
+	"character": "40",
+	"description": "four zero"
+	},
+	"171": {
+	"character": "41",
+	"description": "four one"
+	},
+	"172": {
+	"character": "42",
+	"description": "four two"
+	},
+	"173": {
+	"character": "43",
+	"description": "four three"
+	},
+	"174": {
+	"character": "44",
+	"description": "four four"
+	},
+	"175": {
+	"character": "45",
+	"description": "four five"
+	},
+	"176": {
+	"character": "46",
+	"description": "four six"
+	},
+	"177": {
+	"character": "47",
+	"description": "four seven"
+	},
+	"178": {
+	"character": "48",
+	"description": "four eight"
+	},
+	"179": {
+	"character": "49",
+	"description": "four nine"
+	},
+	"180": {
+	"character": "50",
+	"description": "five zero"
+	},
+	"181": {
+	"character": "51",
+	"description": "five one"
+	},
+	"182": {
+	"character": "52",
+	"description": "five two"
+	},
+	"183": {
+	"character": "53",
+	"description": "five three"
+	},
+	"184": {
+	"character": "54",
+	"description": "five four"
+	},
+	"185": {
+	"character": "55",
+	"description": "five five"
+	},
+	"186": {
+	"character": "56",
+	"description": "five six"
+	},
+	"187": {
+	"character": "57",
+	"description": "five seven"
+	},
+	"188": {
+	"character": "58",
+	"description": "five eight"
+	},
+	"189": {
+	"character": "59",
+	"description": "five nine"
+	},
+	"190": {
+	"character": "60",
+	"description": "six zero"
+	},
+	"191": {
+	"character": "61",
+	"description": "six one"
+	},
+	"192": {
+	"character": "62",
+	"description": "six two"
+	},
+	"193": {
+	"character": "63",
+	"description": "six three"
+	},
+	"194": {
+	"character": "64",
+	"description": "six four"
+	},
+	"195": {
+	"character": "65",
+	"description": "six five"
+	},
+	"196": {
+	"character": "66",
+	"description": "six six"
+	},
+	"197": {
+	"character": "67",
+	"description": "six seven"
+	},
+	"198": {
+	"character": "68",
+	"description": "six eight"
+	},
+	"199": {
+	"character": "69",
+	"description": "six nine"
+	},
+	"200": {
+	"character": "70",
+	"description": "seven zero"
+	},
+	"201": {
+	"character": "71",
+	"description": "seven one"
+	},
+	"202": {
+	"character": "72",
+	"description": "seven two"
+	},
+	"203": {
+	"character": "73",
+	"description": "seven three"
+	},
+	"204": {
+	"character": "74",
+	"description": "seven four"
+	},
+	"205": {
+	"character": "75",
+	"description": "seven five"
+	},
+	"206": {
+	"character": "76",
+	"description": "seven six"
+	},
+	"207": {
+	"character": "77",
+	"description": "seven seven"
+	},
+	"208": {
+	"character": "78",
+	"description": "seven eight"
+	},
+	"209": {
+	"character": "79",
+	"description": "seven nine"
+	},
+	"210": {
+	"character": "80",
+	"description": "eight zero"
+	},
+	"211": {
+	"character": "81",
+	"description": "eight one"
+	},
+	"212": {
+	"character": "82",
+	"description": "eight two"
+	},
+	"213": {
+	"character": "83",
+	"description": "eight three"
+	},
+	"214": {
+	"character": "84",
+	"description": "eight four"
+	},
+	"215": {
+	"character": "85",
+	"description": "eight five"
+	},
+	"216": {
+	"character": "86",
+	"description": "eight six"
+	},
+	"217": {
+	"character": "87",
+	"description": "eight seven"
+	},
+	"218": {
+	"character": "88",
+	"description": "eight eight"
+	},
+	"219": {
+	"character": "89",
+	"description": "eight nine"
+	},
+	"220": {
+	"character": "90",
+	"description": "nine zero"
+	},
+	"221": {
+	"character": "91",
+	"description": "nine one"
+	},
+	"222": {
+	"character": "92",
+	"description": "nine two"
+	},
+	"223": {
+	"character": "93",
+	"description": "nine three"
+	},
+	"224": {
+	"character": "94",
+	"description": "nine four"
+	},
+	"225": {
+	"character": "95",
+	"description": "nine five"
+	},
+	"226": {
+	"character": "96",
+	"description": "nine six"
+	},
+	"227": {
+	"character": "97",
+	"description": "nine seven"
+	},
+	"228": {
+	"character": "98",
+	"description": "nine eight"
+	},
+	"229": {
+	"character": "99",
+	"description": "nine nine"
+	},
+	"230": {
+	"character": "C40",
+	"description": "Switch to C40 method"
+	},
+	"231": {
+	"character": "Base 256",
+	"description": "Switch to Base 256 method"
+	},
+	"232": {
+	"character": "FNC1",
+	"description": "FNC1 character"
+	},
+	"233": {
+	"character": "SSS",
+	"description": "Structure of several symbols"
+	},
+	"234": {
+	"character": "RP",
+	"description": "Reader programming"
+	},
+	"235": {
+	"character": "ASCII ext",
+	"description": "Shift to extended ASCII for one character"
+	},
+	"236": {
+	"character": "M1",
+	"description": "Macro"
+	},
+	"237": {
+	"character": "M2",
+	"description": "Macro"
+	},
+	"238": {
+	"character": "ANSI X12",
+	"description": "Switch to ANSI X12 method"
+	},
+	"239": {
+	"character": "TEXT",
+	"description": "Switch to TEXT method"
+	},
+	"240": {
+	"character": "EDIFACT",
+	"description": "Switch to EDIFACT method"
+	},
+	"241": {
+	"character": "Ext chan",
+	"description": "Extended Channel Interpretation character"
+	},
+	"254": {
+	"character": "EOD",
+	"description": "Switch back to ASCII method or indicate end of datas. "
+	}
+					}
