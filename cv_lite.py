@@ -44,10 +44,11 @@ class CvCameraLite:
         print('Received', recv_data)
         return recv_data
 
-    def _send_data_to_device(self, data):
+    def _send_data_to_device(self, data: str):
         """
-
-        :param data:
+        Wysyła dane do urządzenia
+        :param data: Dane do wysłania
+        :type data: str
         :return:
         """
         client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)

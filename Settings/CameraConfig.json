@@ -1,0 +1,13 @@
+{
+  "Camera": {
+    "Name": "ArduCamOV56475Mpx",
+    "MaxResolution": {
+      "Width": 2592,
+      "Height": 1944
+    },
+    "Resolution": {
+      "Width": 1280,
+      "Height": 1024
+    }
+  }
+}

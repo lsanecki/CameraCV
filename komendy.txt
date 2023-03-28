@@ -1,0 +1,15 @@
+Komendy:
+dekodowanie kodów
+kod_1D#Y_start#Y_end#X_start#X_end -> dekoduj kod 1D oraz kadruj obraz
+kod_1D_1#Y_start#Y_end#X_start#X_end
+kod_1D_2#Y_start#Y_end#X_start#X_end
+kod_1D_3#Y_start#Y_end#X_start#X_end
+kod_1D_4#Y_start#Y_end#X_start#X_end
+kod_data_matrix#Y_start#Y_end#X_start#X_end
+kod_data_matrix_1#Y_start#Y_end#X_start#X_end
+kod_data_matrix_2#Y_start#Y_end#X_start#X_end
+kod_data_matrix_3#Y_start#Y_end#X_start#X_end
+kod_data_matrix_4#Y_start#Y_end#X_start#X_end
+zapisz_zdjecie
+zwroc_ramke
+wylacz_kamery
